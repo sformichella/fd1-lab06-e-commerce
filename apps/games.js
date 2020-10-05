@@ -14,7 +14,7 @@ const amongUs = {
     id: 'among-us',
     name: 'Among Us',
     developer: 'Innersloth',
-    image: 'among-us.jpeg',
+    image: 'among-us.jpg',
     description: 'a party game in which players try to outsmart each other',
     category: 'part-game',
     price: 5.00,
@@ -25,8 +25,8 @@ const forTheKing = {
     id: 'for-the-king',
     name: 'For the King',
     developer: 'Iron Oak Games',
-    image: 'for-the-king.jpeg',
-    description: 'an rpg style rogue-like adventure game'
+    image: 'for-the-king.jpg',
+    description: 'an rpg style rogue-like adventure game',
     category: 'rogue-like',
     price: 20.00,
     onSale: false,
@@ -36,7 +36,7 @@ const left4Dead2 = {
     id: 'l4d2',
     name: 'Left 4 Dead 2',
     developer: 'Valve Corporation',
-    image: 'left-4-dead-2.jpeg',
+    image: 'left-4-dead-2.jpg',
     description: 'a zombie survival game where four players must battle through hordes of undead',
     category: 'zombie-fps',
     price: 10.00,
@@ -47,7 +47,7 @@ const stardewValley = {
     id: 'stardew-valley',
     name: 'Stardew Valley',
     developer: 'ConcernedApe',
-    image: 'stardew-valley.jpeg',
+    image: 'stardew-valley.jpg',
     description: 'rpg style game focused on being a farmer and interacting with the people of Pelican Town',
     category: 'rpg',
     price: 15.00,
@@ -55,4 +55,4 @@ const stardewValley = {
 }
 
 
-export const games = [counterStrikeGlobalOffensive, amongUs, forTheKing, left4Dead2, stardewValley];
+export const gamesArray = [counterStrikeGlobalOffensive, amongUs, forTheKing, left4Dead2, stardewValley];
